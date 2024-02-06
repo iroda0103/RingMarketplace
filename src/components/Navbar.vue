@@ -15,9 +15,12 @@
         </ul>
       </nav>
     </div>
+
     <BtnOrangeVue text='Login'></BtnOrangeVue>
+
   </div>
 </template>
+
 <script setup>
 import BtnOrangeVue from "../entities/BtnOrange.vue";
 </script>
@@ -88,8 +91,6 @@ nav ul li a:hover:after {
 }
 
 .header li:hover {
-  /* transform: translateY(-2px);
-  transition: 0.4s; */
   cursor: pointer;
 }
 

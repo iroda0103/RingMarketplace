@@ -5,8 +5,8 @@
       This NFT website is a website that features buying and selling, news and
       blogs. Designed with a minimalist and informative concept
     </p>
+
     <div class="generation_card_group">
-      <!-- <ExclusiveCard></ExclusiveCard> -->
       <ExclusiveCard
         v-for="item in data"
         :item="item"
@@ -19,6 +19,7 @@
 <script setup>
 import GenerationCard from "./GenerationCard.vue";
 import ExclusiveCard from "./ExclusiveCard.vue";
+
 const isActive = true;
 const arr = [1, 2, 3, 4];
 const data = [
@@ -58,7 +59,7 @@ const data = [
     img: "src/assets/images/exclusive_img_4.png",
     isActive: false,
   },
-    {
+  {
     id: 5,
     name: "Theresa Webb",
     price: "$475.22",
@@ -96,13 +97,14 @@ const data = [
   },
 ];
 </script>
+
 <style>
 .exclusive .header_text {
   max-width: 660px;
 }
 
-.exclusive .generation_card_group{
-flex-wrap: wrap;
-gap:20px;
+.exclusive .generation_card_group {
+  flex-wrap: wrap;
+  gap: 20px;
 }
 </style>

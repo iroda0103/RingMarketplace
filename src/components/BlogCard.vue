@@ -14,13 +14,22 @@ export default {
 
 <style setup>
 .blog-card {
-  background-image: url("src/assets/images/blog_img_1.png");
   height: 452px;
   width: 530px;
-  /* width: 100%; */
   position: relative;
+  /* overflow: hidden; */
 }
 
+.blog-card:hover {
+  cursor: pointer;
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  filter: brightness(110%);
+}
+.blog-card img{
+   height: 452px;
+  width: 530px;
+}
 .blog-card__wrapper {
   bottom: 0;
   left: 0;

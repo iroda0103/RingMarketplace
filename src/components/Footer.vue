@@ -8,6 +8,7 @@
         exclusive digital assets.
       </p>
     </div>
+
     <div>
       <h5>Marketplace</h5>
       <ul>
@@ -23,6 +24,7 @@
         <li>Utility</li>
       </ul>
     </div>
+
     <div>
       <h5>My Account</h5>
       <ul>
@@ -35,11 +37,11 @@
         <li>Careers</li>
       </ul>
     </div>
+
     <div>
       <h5>Resources</h5>
       <ul>
         <li>Help Center</li>
-
         <li>Partners</li>
         <li>Suggestions</li>
         <li>Discord Community</li>
@@ -58,6 +60,7 @@
   justify-content: space-between;
   padding: 50px 60px;
 }
+
 .first_child_paragraph {
   max-width: 373px;
   width: 100%;

@@ -1,9 +1,11 @@
 <template>
   <div class="exclusive_card">
     <img :src="item.img" class="exclusive_card--img" />
+
     <div class="exclusive_card__body">
       <h4>{{ item.name }}</h4>
       <p class="exclusive_card--paragraph">{{ item.price }}</p>
+
       <div class="exclusive_card__wrapper">
         <img src="../assets/images/exclusive_avatar.svg" />
         <p class="exclusive_author_name">Darrell Steward</p>

@@ -5,6 +5,7 @@
     </div>
   </div>
 </template>
+
 <script setup>
 const data = [
   { id: 1, img: "src/assets/images/partners_img_1.svg" },

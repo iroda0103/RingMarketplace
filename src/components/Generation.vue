@@ -5,8 +5,8 @@
       This NFT website is a website that features buying and selling, news and
       blogs. Designed with a minimalist and informative concept
     </p>
+
     <div class="generation_card_group">
-      <!-- <GenerationCard v-for="item in data" :item="item" :key="item.id" /> -->
       <card
         v-for="item in data"
         :key="item.id"
@@ -21,6 +21,7 @@
 <script setup>
 import GenerationCard from "./GenerationCard.vue";
 import card from "./Card.vue";
+
 const isActive = true;
 const arr = [1, 2, 3, 4];
 const data = [

@@ -1,10 +1,12 @@
 <template>
   <div class="note">
     <p>Current price</p>
+
     <div>
       <img src="../assets/images/note_body_icon.svg" />
       <p>1.92<span>($5,822.47)</span></p>
     </div>
+
     <div>
       <img src="../assets/images/note_avatar.svg" />
       <p>Wade Warren</p>
@@ -29,7 +31,7 @@
   padding: 50px;
 }
 
-.note:hover{
+.note:hover {
   cursor: pointer;
   transform: scale(1.01);
   transition: 0.2s;
@@ -40,13 +42,13 @@
   font-weight: 700;
 }
 
-.note div{
-    display: flex;
-    gap:15px;
-    align-items: center;
+.note div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.note span{
-    margin-left: 10px;
+.note span {
+  margin-left: 10px;
 }
 </style>

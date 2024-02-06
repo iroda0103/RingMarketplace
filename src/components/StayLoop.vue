@@ -1,16 +1,17 @@
 <template>
   <div class="container stay-loop">
+    
     <div class="text_wrapper">
       <h2 class="stay--header">Stay in the loop</h2>
-      <p  class="stay--paragraph">
+      <p class="stay--paragraph">
         Join our mailing list to stay in the loop with our newest feature
         releases, NFT drops, and tips and tricks for navigating NFT.Ring
       </p>
-      <label for="loop_search" class="stay_label"
-        ><input class="" id="loop_search" /><BtnOrange
-          text="Register"
-        ></BtnOrange
-      ></label>
+
+      <label for="loop_search" class="stay_label">
+        <input class="" id="loop_search" />
+        <BtnOrange text="Register"></BtnOrange>
+      </label>
     </div>
   </div>
 </template>
@@ -46,34 +47,34 @@ import BtnOrange from "../entities/BtnOrange.vue";
   margin-bottom: 20px;
 }
 
-.stay--paragraph{
-    margin-bottom: 50px;
-    max-width: 467px;
-    width: 100%;
+.stay--paragraph {
+  margin-bottom: 50px;
+  max-width: 467px;
+  width: 100%;
 }
 
-#loop_search{
-width: 495px;
-background: #FFFFFF;
-border-radius: 10px;
-appearance: none;
-border: none;
-padding: 15px;
+#loop_search {
+  width: 495px;
+  background: #ffffff;
+  border-radius: 10px;
+  appearance: none;
+  border: none;
+  padding: 15px;
 }
-#loop_search:focus{
-    appearance: none;
-    border: none;
-    outline: none;
-}
-
-.stay-loop .btn_orange{
-    position: relative;
-    right: 30px;
+#loop_search:focus {
+  appearance: none;
+  border: none;
+  outline: none;
 }
 
-.stay_label{
-    position: relative;
-    display: flex;
-    justify-content: center;
+.stay-loop .btn_orange {
+  position: relative;
+  right: 30px;
+}
+
+.stay_label {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 </style>

@@ -5,19 +5,23 @@ import Note from "./Note.vue";
 </script>
 <template>
   <div class="container main">
+
     <Navbar></Navbar>
+
     <div class="main__text">
       <h1>The Home of Minimalist Buying and Selling</h1>
       <p>
         This NFT website is a website that features buying and selling, news and
         blogs. Designed with a minimalist and informative concept
       </p>
+
       <div class="main_btn__group">
         <button class="btn_orange">Explore</button>
         <button class="btn_transparent" @click="changed()">Create</button>
       </div>
+      
     </div>
-    <Note>
+    <Note></Note>
   </div>
 </template>
 
@@ -71,33 +75,33 @@ import Note from "./Note.vue";
   letter-spacing: 0.02em;
 }
 
-.btn_transparent:hover{
-  cursor:pointer;
+.btn_transparent:hover {
+  cursor: pointer;
   transform: scale(1.03);
   transition: 0.2s;
 
-  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
-box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
-border-radius: 10px;
-padding: 15px 25px;
-border:none;
-font-weight: 700;
-line-height: 175.4%;
-letter-spacing: 0.02em;
-color: #F4F4F4;
-transition: 0.2s;
+  background: linear-gradient(132.95deg, #ffc301 9.31%, #ff6533 79.4%);
+  box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+  border-radius: 10px;
+  padding: 15px 25px;
+  border: none;
+  font-weight: 700;
+  line-height: 175.4%;
+  letter-spacing: 0.02em;
+  color: #f4f4f4;
+  transition: 0.2s;
 }
 
-.btn_orange{
-background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
-box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
-border-radius: 10px;
-padding: 15px 25px;
-border:none;
-font-weight: 700;
-line-height: 175.4%;
-letter-spacing: 0.02em;
-color: #F4F4F4;
-transition: 0.2s;
+.btn_orange {
+  background: linear-gradient(132.95deg, #ffc301 9.31%, #ff6533 79.4%);
+  box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+  border-radius: 10px;
+  padding: 15px 25px;
+  border: none;
+  font-weight: 700;
+  line-height: 175.4%;
+  letter-spacing: 0.02em;
+  color: #f4f4f4;
+  transition: 0.2s;
 }
 </style>

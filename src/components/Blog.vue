@@ -96,7 +96,10 @@ function changedClass() {
   padding: 15px 30px;
   border: none;
 }
-
+.blog_btn:hover{
+  cursor:pointer;
+  filter: brightness(110%);
+}
 .blog .header_text {
   padding-top: 0;
   max-width: 850px;
@@ -131,6 +134,7 @@ function changedClass() {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .blog_card_group_all {

@@ -1,26 +1,21 @@
 <template>
-  <div :class="[
-            'generation__card',
-            { active__card: item.isActive },
-          ]" @click="clicked(item)">
-    <div class="card-wrap"
+  <div
+    :class="['generation__card', { active__card: item.isActive }]"
+    @click="clicked(item)"
+  >
+    <div
+      class="card-wrap"
       @mousemove="handleMouseMove"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
       ref="card"
     >
       <div class="card" :style="cardStyle">
-        <div
-          class="card-bg"
-          :style="cardBgTransform"
-        >
-          <!-- <div :style="cardBgImage">
-
-        </div> -->
+        <div class="card-bg" :style="cardBgTransform">
           <img :src="item.img" />
-          <!-- <p class="generation_card_text">Green Ring</p> -->
         </div>
       </div>
+      
       <p :class="['generation_card_text', { active_card_text: item.isActive }]">
         Green Ring
       </p>
@@ -87,10 +82,10 @@ export default {
         this.mouseY = 0;
       }, 1000);
     },
-    clicked(item){
-      console.log('sasasa')
-      this.$emit('generate-active',item)
-    }
+    clicked(item) {
+      console.log("sasasa");
+      this.$emit("generate-active", item);
+    },
   },
 };
 </script>
